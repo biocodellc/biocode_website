@@ -1,9 +1,11 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Coding for Biodiversity and the Environment"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  title : "Applications for Biodiversity and the Environment"
+  content : "Biocode LLC provides services for working with data collected in the field, 
+  through analysis and publication"
   image : "images/BiocodeLogo.png"
+
 
 
 ############################# About Product #######################
@@ -11,10 +13,10 @@ aboutFlexibleData:
   enable : true
   items:
     # about product item loop
-    - image : "images/geome.png"
-      title : "Network-ready data management."
-      content : "Customizable solution for building customizable data management in the cloud.  Build teams, projects, and components
-      for any domain, using document-store (JSON) data structures."
+    - title : "Network Data Environment"
+      content : "Our network data environment is a customizable data management platform for teams, projects, and datasets.
+      Our solution uses customizable document objects (written in JSON) to create network and project-level 
+      data validation rules.  Data elements can be defined to suit any domain. This enables broad-scale networks to scale their data quickly."
       button:
         enable : false
         label : "Check Features"
@@ -26,39 +28,57 @@ aboutPipeline:
   items:
     # about product item loop
     - image : "images/pipeline.png"
-      title : "A high-throughput ontology-based pipeline for data integration."
-      content : "A flexible, scalable pipeline for integration and alignment of multiple data sources. 
+      title : "A high-throughput ontology-based pipeline for data integration"
+      content : "We have built a flexible, scalable pipeline for integration and alignment of multiple data sources. 
       Processing is daptable to all kinds of data, ontologies (OWL), or reasoning profiles, and 
-      output is compatible with any type of storage technology."
+      output is compatible with any type of storage technology. The ontology-data-pipeline is designed to 
+      be run as a Docker container but can also be run natively in python. For more information visit the
+      [ontology-data-pipeline github page](https://github.com/biocodellc/ontology-data-pipeline)."
       button:
         enable : false
         label : "Check Features"
         link : "#"
 
 
-
-################################## call to action ###################
+################################## aboutus ###################
 aboutus:
   enable : true
   title : "About the Team"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-  placeholder : "Your Email Address Here"
+  content : "Biocode, LLC team members"
+  teamMembers:
+    - name : "John Deck"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+      image : ""
+      email : "jdeck88@gmail.com"
+  
+    - name : "RJ Ewing"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+      image : ""
+  
+    - name : "Maria Alborquone"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+      image : ""
 
 
 ############################## Testimonial ##########################
-testimonial:
+currentprojects:
   enable : true
-  title : "Current Projects..."
-  testimonialItem:
-    # testimonial item loop
+  title : "Current Projects"
+  currentprojectItem:
+    # currentproject  item loop
     - name : "Genomics Observatory Metadatabase"
-      designation : "CEO, Themefisher"
       image : "images/geome.png"
       content : "Built on our flexible data environment.... information about GEOME" 
+      url: "https://geome-db.org/"
 
-    # testimonial item loop
-    - name : "Ontology Data Pipeline"
-      designation : "CEO, Themefisher"
-      image : "images/pipeline.png"
-      content : "Codebase, docker container, about the pipeline...."
+    # currentproject item loop
+    - name : "Plant Phenology Ontology"
+      image : "images/ppo.png"
+      content : "PPO Text...."
+      url: "https://plantphenology.org/"
       
+    # currentproject item loop
+    - name : "FuTRES"
+      image : "images/futres.jpg"
+      content : "PPO Text...."
+      url: "https://futres.org/"

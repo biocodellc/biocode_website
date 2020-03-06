@@ -1,22 +1,22 @@
-{{ if .Site.Data.homepage.testimonial.enable }}
-<section class="testimonials section" id="testimonial">
+{{ if .Site.Data.homepage.currentprojects.enable }}
+<section class="current-projects section" id="currentprojects">
   <div class="container">
-    {{ with .Site.Data.homepage.testimonial }}
+    {{ with .Site.Data.homepage.currentprojects }}
     <div class="row justify-content-center">
       <div class="col-12">
         <div class="heading">
           <h2>{{ .title | markdownify }}</h2>
         </div>
       </div>
-      {{ range .testimonialItem }}
+      {{ range .currentprojectItem }}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
-        <div class="testimonial-block">
-          <i class="tf-ion-quote"></i>
-          <p>{{ .content | markdownify }}</p>
+        <div class="current-project-block">
           <div class="author-details">
-            <img src="{{ .image | absURL }}" alt="{{ .name }}">
+            <a href="{{ .url}}" target="_blank"><img src="{{ .image | absURL }}" alt="{{ .name }}"></a>
             <h4>{{ .name }}</h4>
           </div>
+          <p>{{ .content | markdownify }}</p>
+
         </div>
       </div>
       {{ end }}

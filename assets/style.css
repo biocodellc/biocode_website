@@ -429,32 +429,33 @@ a:active {
 /*--
     service start
 --*/
-.testimonials .testimonial-block {
+.current-projects .current-project-block {
   padding: 0 10px;
 }
 
-.testimonials .testimonial-block i {
+.current-projects .current-project-block i {
   font-size: 40px;
   display: inline-block;
   margin-bottom: 20px;
   color: #f9a743;
 }
 
-.testimonials .testimonial-block p {
+.current-projects .current-project-block p {
   font-family: "Droid Serif", serif;
   font-size: 14px;
   color: #777;
 }
 
-.testimonials .testimonial-block .author-details {
+.current-projects .current-project-block .author-details {
   margin-top: 30px;
 }
 
-.testimonials .testimonial-block .author-details img {
-  width: 150px;
+.current-projects .current-project-block .author-details img {
+  max-width: 150px;
+  max-height: 50px;
 }
 
-.testimonials .testimonial-block .author-details h4 {
+.current-projects .current-project-block .author-details h4 {
   font-weight: 700;
   font-size: 20px;
   margin-top: 10px;

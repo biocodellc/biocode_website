@@ -1,0 +1,21 @@
+{{- if .Site.Data.homepage.aboutus.enable }}
+{{- with .Site.Data.homepage.aboutus }}
+<section class="aboutus section bg-opacity" style="background-image: url('{{ .bgImage | absURL }}');" id="aboutus">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 text-center mx-auto">
+        <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
+        <p class="text-white">{{ .content | markdownify }}</p>
+        <div class="input-group">
+          <form action="#" class="w-100">
+            <input type="email" id="email" class="form-control" name="email" placeholder="{{ .placeholder }}"
+              required>
+            <button class="btn btn-main btn-submit" type="submit">Subscribe</button>
+          </form>
+        </div><!-- /input-group -->
+      </div>
+    </div>
+  </div>
+</section><!-- #aboutus close -->
+{{- end }}
+{{- end }}

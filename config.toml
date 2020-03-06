@@ -1,0 +1,48 @@
+################################### Default Configuration ############################
+baseurl = "https://biocodellc.com/"
+languageCode = "en"
+title = "Biocode, LLC"
+theme = "vex"
+
+#################################### Plugins ##########################################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "css/themefisher-fonts.css"
+  [[params.plugins.css]]
+  URL = "css/owl.carousel.css"
+  [[params.plugins.css]]
+  URL = "css/magnific-popup.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/jquery-2.1.1.min.js"
+  [[params.plugins.js]]
+  URL = "js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "js/owl.carousel.min.js"
+  [[params.plugins.js]]
+  URL = "js/jquery.magnific-popup.min.js"
+
+
+###################################### Navigation ######################################
+[menu]
+    
+  [[menu.main]]
+  name = "About Us"
+  URL = "aboutus"
+  weight = 2
+  
+
+  [[menu.main]]
+  name = "Projects"
+  URL = "testimonial"
+  weight = 3
+

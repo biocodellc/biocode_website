@@ -13,10 +13,18 @@ aboutFlexibleData:
   enable : true
   items:
     # about product item loop
-    - title : "Network Data Environment"
-      content : "Our network data environment is a customizable data management platform for teams, projects, and datasets.
-      Our solution uses customizable document objects (written in JSON) to create network and project-level 
-      data validation rules.  Data elements can be defined to suit any domain. This enables broad-scale networks to scale their data quickly."
+    - title : "Distributed Data Environment"
+      content : "We help organizations and networks manage data.  You can build your own network,
+       establishing custom concepts and rules for member teams and projects.   Teams define customized
+       rules that build on network rules and creating an environment for team members to interact.   An example
+       network would be a monitoring network for genomic biodiversity.  Core rules are established for the
+       network, and independent teams can form within the network with expanded rules. In this scenario, teams would be:
+       'Fish Sampling Team', 'Environmental DNA Team', and 'Fossil Traits Team'.  Each of these teams would
+       have unique attributes and rules regarding their type of data, while enabling broader network 
+       integration.
+       
+       Our distributed data environment is fully customizable using JSON objects to define network and team
+       behaviour."
       button:
         enable : false
         label : "Check Features"
@@ -28,9 +36,13 @@ aboutPipeline:
   items:
     # about product item loop
     - image : "images/pipeline.png"
-      title : "A high-throughput ontology-based pipeline for data integration"
-      content : "We have built a flexible, scalable pipeline for integration and alignment of multiple data sources. 
-      Processing is daptable to all kinds of data, ontologies (OWL), or reasoning profiles, and 
+      title : "High-throughput ontology-based pipeline (ontology-data-pipeline)"
+      content : "Ontologies help in data integration by using a logic-based framework to define relationships
+      between entities.  Ontologies are a powerful tool, but often users
+      are presented with the challenge of using ontologies effectively in data management.  
+      We have built a flexible, scalable pipeline for integration and alignment of multiple data sources 
+      using ontologies. 
+      Processing is adaptable to all kinds of data or reasoning profiles, and 
       output is compatible with any type of storage technology. The ontology-data-pipeline is designed to 
       be run as a Docker container but can also be run natively in python. For more information visit the
       [ontology-data-pipeline github page](https://github.com/biocodellc/ontology-data-pipeline)."
@@ -47,17 +59,21 @@ aboutus:
   content : "Biocode, LLC team members"
   teamMembers:
     - name : "John Deck"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-      image : ""
+      content : "Founding member, project management"      
       email : "jdeck88@gmail.com"
   
     - name : "RJ Ewing"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+      content : "Programmer, system architect"
       image : ""
   
-    - name : "Maria Alborquone"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    - name : "Maria Albarqouoni"
+      content : "Front end programming"
       image : ""
+    
+    - name : "Dianna Lovette"
+      content : "Front end programming"
+      image : ""
+
 
 
 ############################## Testimonial ##########################
@@ -68,17 +84,25 @@ currentprojects:
     # currentproject  item loop
     - name : "Genomics Observatory Metadatabase"
       image : "images/geome.png"
-      content : "Built on our flexible data environment.... information about GEOME" 
+      content : "The Genomic Observatories Meta-Database (GEOME) is a web-based database that captures the 
+      who, what, where, and when of biological samples and associated genetic sequences. GEOME helps 
+      users with ensuring metadata from samples is FAIR, improving data quality, and enabling integration
+      with downstream tools"
       url: "https://geome-db.org/"
 
     # currentproject item loop
     - name : "Plant Phenology Ontology"
       image : "images/ppo.png"
-      content : "PPO Text...."
+      content : "Using the ontology-data-pipeline, the global plant phenology portal integrates data from
+      diverse sources, assembling over 20 million phenological observations and aligning with the Plant
+      Phenology Ontology"
       url: "https://plantphenology.org/"
       
     # currentproject item loop
     - name : "FuTRES"
       image : "images/futres.jpg"
-      content : "PPO Text...."
+      content : "FuTRES (Functional Trait Resource for Environmental Studies) is a workflow for 
+      assembling functional trait data measured at the specimen level, and a database to serve 
+      that data. It is based on a semantic model and is powered by extensible parsers, a backend database, 
+      and an API."
       url: "https://futres.org/"

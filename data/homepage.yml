@@ -2,8 +2,7 @@
 banner:
   enable : true
   title : "Applications for Biodiversity and the Environment"
-  content : "Biocode LLC provides services for working with data collected in the field, 
-  through analysis and publication"
+  content : "Make your data awesome"
   image : "images/BiocodeLogo.png"
 
 
@@ -13,10 +12,12 @@ aboutFlexibleData:
   enable : true
   items:
     # about product item loop
-    - title : "Distributed Data Environment"
-      content : "We help organizations and networks manage data.  You can build your own network,
-       establishing custom concepts and rules for member teams and projects.   Teams define customized
-       rules that build on network rules and creating an environment for team members to interact.   An example
+    - title : "Helping networks connect global teams"
+      content : "We help organizations and networks manage and improve data.  Using our open source tools, you can build your own network,
+       consisting of teams and projects.  The network defines core data standards and concepts. Teams build on network
+       rules while creating an environment for individual members to interact and contribute data.  
+       Our tools are built to be adaptable to many different types of data.
+       An example
        network would be a monitoring network for genomic biodiversity.  Core rules are established for the
        network, and independent teams can form within the network with expanded rules. In this scenario, teams would be:
        'Fish Sampling Team', 'Environmental DNA Team', and 'Fossil Traits Team'.  Each of these teams would
@@ -36,7 +37,7 @@ aboutPipeline:
   items:
     # about product item loop
     - image : "images/pipeline.png"
-      title : "High-throughput ontology-based pipeline (ontology-data-pipeline)"
+      title : "Ontology data pipeline"
       content : "Ontologies help in data integration by using a logic-based framework to define relationships
       between entities.  Ontologies are a powerful tool, but often users
       are presented with the challenge of using ontologies effectively in data management.  

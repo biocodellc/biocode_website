@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Applications for Biodiversity and the Environment"
-  content : "Make your data awesome"
+  content : "Make your biological data awesome"
   image : "images/BiocodeLogo.png"
 
 
@@ -12,7 +12,7 @@ aboutFlexibleData:
   enable : true
   items:
     # about product item loop
-    - title : "Helping networks connect global teams"
+    - title : "Connecting your data to the world"
       content : "We help organizations and networks manage and improve data.  Using our open source tools, you can build your own network,
        consisting of teams and projects.  The network defines core data standards and concepts. Teams build on network
        rules while creating an environment for individual members to interact and contribute data.  

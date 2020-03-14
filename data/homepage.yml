@@ -6,6 +6,8 @@ banner:
   image : "images/BiocodeLogo.png"
 
 
+########################### technology ##########################
+
 technology:
   title: "technology options"
   enable : true
@@ -31,9 +33,6 @@ technology:
       be run as a Docker container but can also be run natively in python. For more information visit the
       [ontology-data-pipeline github page](https://github.com/biocodellc/ontology-data-pipeline)."
        
-
-
-
 
 ################################## aboutus ###################
 aboutus:

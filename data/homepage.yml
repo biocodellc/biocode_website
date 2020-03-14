@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Applications for Biodiversity and the Environment"
-  content : "Make your biological data awesome"
+  content : "Make your field data awesome"
   image : "images/BiocodeLogo.png"
 
 
@@ -13,15 +13,26 @@ technology:
   enable : true
   
   currentTechnologyItem:
-    - title : "Connecting your data to the world"
+    - title : "Data quality"
       image: "images/boat.jpg"
-      content : "We help organizations and networks manage and improve data.  Using our open source tools, you can build your own network,
-       consisting of teams and projects.  The network defines core data standards and concepts. Teams build on network
-       rules while creating an environment for individual members to interact and contribute data.  
-       Our tools are built to be adaptable to many different types of data.
+      content : "We have built an array of tests to check for data quality and completeness.  These
+      tests are configurable to conform to both network and project level rules and designed to give
+      instant feedback to the field researchers who are responsible for collecting the data.  For example, a network
+      may require that latitutde/longitude values are collected and a project may require that these
+      coordinates are constrained to a specific area of study.  Our open source software verifies a broad set of 
+      tests to ensure that data that is collected conforms to a known standard.  These tests include
+      data format, numerical ranges, controlled vocabularies, and dependency checks.  Data quality tests 
+      are configurable depending on the intended downstream use of the collected data."
+
+    - title : "Connecting your data to the world"
+      image: "images/team.png"
+      content : "We help organizations and networks manage and improve data enabling adopters to build 
+       their own network, consisting of teams and projects.  The network defines core data standards and concepts. 
+       Teams build on network rules while creating an environment for individual members to interact and 
+       contribute data.  Our tools are built to be adaptable to many different types of data.
        One example network is the Genomics Observatory Metadatabase, listed under projects below."
       
-    - title : "Ontology data pipeline"
+    - title : "Ontology alignment"
       image : "images/pipeline.png"
       content : "Ontologies help in data integration by using a logic-based framework to define relationships
       between entities.  Ontologies are a powerful tool, but often users
@@ -65,6 +76,14 @@ currentprojects:
       and an API."
       url: "https://futres.org/"
 
+    - name : "Biocode LIMS"
+      image : "images/lims.png"
+      content : "The Biocode LIMS software operates as a plugin to the Geneious software and 
+      comprises everything you need to manage your lab and sequence analysis workflows. 
+      Our wiki serves both as a repository for the plugins themselves (with release notes and 
+      links to downloads), and an extensive online manual."
+      url: "https://github.com/biocodellc/biocode-lims/wiki"
+
 
 ################################## aboutus ###################
 aboutus:
@@ -80,12 +99,15 @@ aboutus:
   
     - name : "RJ Ewing"
       content : "Programmer, system architect"
-      image : ""
+      image : "images/rj.jpeg"
+      email : ""
   
     - name : "Maria Albarqouoni"
       content : "Front end programming"
-      image : ""
+      image : "images/maria.jpeg"
+      email : ""
     
     - name : "Diana Lovette"
-      content : "Front end programming"
-      image : ""
+      content : "Integrating API in 3rd party applications"
+      image : "images/diana.jpeg"
+      email : ""

@@ -12,8 +12,8 @@
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
         <div class="current-project-block">
           <div class="author-details">
-            <a href="{{ .url}}" target="_blank"><img src="{{ .image | absURL }}" alt="{{ .name }}"></a>
-            <h4>{{ .name }}</h4>
+            <a href="{{ .url}}" target="_blank"><img src="{{ .image | absURL }}" alt="{{ .name }}">
+            <h4>{{ .name }}</h4></a>
           </div>
           <p>{{ .content | markdownify }}</p>
 

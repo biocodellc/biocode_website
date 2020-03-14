@@ -90,7 +90,8 @@ aboutus:
   enable : true
   title : "About the Team"
   content : "Biocode, LLC team members are listed below.  If you want information about Biocode, LLC, our 
-  technology options or any of our projects, do not hesitate to reach out by sending an email to biocodellc@gmail.com"
+  technology options or any of our projects, do not hesitate to reach out by sending an email to 
+  [biocodellc@gmail.com](mailto:biocodellc@gmail.com)"
   teamMembers:
     - name : "John Deck"
       content : "Founding member and project management"      

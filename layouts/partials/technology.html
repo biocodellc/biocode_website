@@ -1,0 +1,21 @@
+{{ if .Site.Data.homepage.technology.enable }}
+{{ with .Site.Data.homepage.technology }}
+{{ range $i,$p := where .currentTechnologyItem "section" "!=" "foo"}}
+
+<!-- Detect every other section: {{if (modBool $i 2)}}bg-opacity{{end}}-->    
+<section class="technology section {{if (modBool $i 2)}}bg-opacity{{end}}" 
+    style="background-image: url('{{ .bgImage | absURL }}');" 
+    id="technology">
+
+
+    <div class="col-md-12 align-self-center text-center text-md-left">
+    <div class="container {{if (modBool $i 2)}}text-white{{end}}">     
+        <h4 class="subheading {{if (modBool $i 2)}}text-white{{end}}">{{ .title | markdownify }}</h4>
+        <img align="{{if (modBool $i 2)}}left{{else}}right{{end}}" src="{{ .image | absURL }}" height=200 hspace=20 alt="">
+        <p class="">{{ .content | markdownify }}</p>                 
+    </div> 
+    </div>   
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,6 +1,6 @@
 
 {{ if .Site.Data.homepage.aboutus.enable }}
-<section class="current-projects section" id="currentprojects">
+<section class="aboutus section" id="aboutus">
   <div class="container">
     {{ with .Site.Data.homepage.aboutus }}
     <div class="row justify-content-center">
@@ -14,7 +14,9 @@
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
         <div class="current-project-block">
           <div class="author-details">
-            <!--<a href="{{ .url}}" target="_blank"><img src="{{ .image | absURL }}" alt="{{ .name }}"></a>-->
+            {{ if .image }}
+               <img height=85 src="{{ .image | absURL }}" alt="{{ .name }}">
+            {{ end }}
             <h4>{{ .name }}</h4>          
             {{ .email }}
 

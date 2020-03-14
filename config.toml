@@ -40,7 +40,7 @@ theme = "vex"
     
 [[menu.main]]
   name = "Technology"
-  URL = "aboutFlexibleData"
+  URL = "technology"
   weight = 1
 
 

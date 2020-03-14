@@ -34,31 +34,6 @@ technology:
       [ontology-data-pipeline github page](https://github.com/biocodellc/ontology-data-pipeline)."
        
 
-################################## aboutus ###################
-aboutus:
-  enable : true
-  title : "About the Team"
-  content : "Biocode, LLC team members"
-  teamMembers:
-    - name : "John Deck"
-      content : "Founding member and project management"      
-      email : "jdeck88@gmail.com"
-      image : "images/john.jpg"
-  
-    - name : "RJ Ewing"
-      content : "Programmer, system architect"
-      image : ""
-  
-    - name : "Maria Albarqouoni"
-      content : "Front end programming"
-      image : ""
-    
-    - name : "Diana Lovette"
-      content : "Front end programming"
-      image : ""
-
-
-
 ############################## Testimonial ##########################
 currentprojects:
   enable : true
@@ -89,3 +64,28 @@ currentprojects:
       that data. It is based on a semantic model and is powered by extensible parsers, a backend database, 
       and an API."
       url: "https://futres.org/"
+
+
+################################## aboutus ###################
+aboutus:
+  enable : true
+  title : "About the Team"
+  content : "Biocode, LLC team members are listed below.  If you want information about Biocode, LLC, our 
+  technology options or any of our projects, do not hesitate to reach out by sending an email to biocodellc@gmail.com"
+  teamMembers:
+    - name : "John Deck"
+      content : "Founding member and project management"      
+      email : "jdeck88@gmail.com"
+      image : "images/john.jpg"
+  
+    - name : "RJ Ewing"
+      content : "Programmer, system architect"
+      image : ""
+  
+    - name : "Maria Albarqouoni"
+      content : "Front end programming"
+      image : ""
+    
+    - name : "Diana Lovette"
+      content : "Front end programming"
+      image : ""

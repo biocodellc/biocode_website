@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Applications for Biodiversity and the Environment"
-  content : "Make your field data awesome"
+  content : "Building better data for understanding biodiversity and the environment"
   image : "images/BiocodeLogo.png"
 
 
@@ -15,19 +15,16 @@ technology:
   currentTechnologyItem:
     - title : "Data quality"
       image: "images/boat.jpg"
-      content : "We have built an array of tests to check for data quality and completeness.  These
-      tests are configurable to conform to both network and project level rules and designed to give
-      instant feedback to the field researchers who are responsible for collecting the data.  For example, a network
-      may require that latitutde/longitude values are collected and a project may require that these
-      coordinates are constrained to a specific area of study.  Our open source software verifies a broad set of 
-      tests to ensure that data that is collected conforms to a known standard.  These tests include
+      content : "We give instant feedback on data to quality to field researchers and data collectors.  For example, a team
+      may require that latitude/longitude values are constrained to a specific area of study.   
+      Our open source software verifies that data conforms to a known standard and check 
       data format, numerical ranges, controlled vocabularies, and dependency checks.  Data quality tests 
       are configurable depending on the intended downstream use of the collected data."
 
     - title : "Connecting your data to the world"
       image: "images/team.png"
       content : "We help organizations and networks manage and improve data enabling adopters to build 
-       their own network, consisting of teams and projects.  The network defines core data standards and concepts. 
+       their own network, organizing individuals and groups.  The network defines core data standards and concepts. 
        Teams build on network rules while creating an environment for individual members to interact and 
        contribute data.  Our tools are built to be adaptable to many different types of data.
        One example network is the Genomics Observatory Metadatabase, listed under projects below."

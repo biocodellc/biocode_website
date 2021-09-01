@@ -15,7 +15,7 @@ technology:
   currentTechnologyItem:
     - title : "Data quality"
       image: "images/boat.jpg"
-      content : "Data should be born digital, with checks and validations pushed as early as possible in the data value chain.  
+      content : "Data should be born digital, with checks and validations run as early as possible in the data value chain.  
       Giving field researchers tools to validate their own data, against standards set by their own data management plan,  
       ensures that all downstream users of this data can rely on accurate data when it counts. 
       Our open source software verifies that data conforms to a known standard and checks 

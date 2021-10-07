@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Applications for Biodiversity and the Environment"
-  content : "Building better data for understanding biodiversity and the environment"
+  content : "Data for understanding biodiversity and the environment"
   image : "images/BiocodeLogo.png"
 
 
@@ -15,8 +15,7 @@ technology:
   currentTechnologyItem:
     - title : "Data quality"
       image: "images/boat.jpg"
-      content : "Data should be born digital, with checks and validations run as early as possible in the data value chain.  
-      Giving field researchers tools to validate their own data, against standards set by their own data management plan,  
+      content : "Giving field researchers tools to validate their own data, against standards set by their own data management plan,  
       ensures that all downstream users of this data can rely on accurate data when it counts. 
       Our open source software verifies that data conforms to a known standard and checks 
       data format, numerical ranges, controlled vocabularies, and dependency checks.  Data quality tests 

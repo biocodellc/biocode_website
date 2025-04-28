@@ -48,7 +48,7 @@ currentprojects:
   currentprojectItem:
     # currentproject  item loop
     - name : "Genomics Observatory Metadatabase"
-      image : "images/geome.png"
+      image : "images/geome-logo-eco.png"
       content : "The Genomic Observatories Meta-Database (GEOME) is a web-based database that captures the 
       who, what, where, and when of biological samples and associated genetic sequences. GEOME helps 
       users with ensuring metadata from samples is FAIR, improving data quality, and enabling integration
@@ -94,16 +94,6 @@ aboutus:
       email : "jdeck88@gmail.com"
       image : "images/john.jpg"
   
-    - name : "RJ Ewing"
-      content : "Programmer, system architect"
-      image : "images/rj.jpeg"
-      email : ""
-  
-    - name : "Maria Albarqouoni"
-      content : "Front end programming"
-      image : "images/maria.jpeg"
-      email : ""
-    
     - name : "Diana Lovette"
       content : "API and Data Integration"
       image : "images/diana.jpeg"
